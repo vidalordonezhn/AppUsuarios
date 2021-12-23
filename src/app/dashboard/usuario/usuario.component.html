@@ -1,0 +1,19 @@
+
+<app-spinner *ngIf="loading"></app-spinner>
+
+  <div class="row" *ngIf="!loading">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="card" style="width: 25rem; margin: 0 auto;">
+            <img [src]="imgUrl" class="card-img-top img-thumbnail" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ name }}</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{ genrer }}</li>
+                <li class="list-group-item">{{ status }}</li>
+                <li class="list-group-item">{{ email }}</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary btn-block btn-lx" routerLink="/dashboard" >VOLVER</button>
+          </div>
+      </div>
+  </div>

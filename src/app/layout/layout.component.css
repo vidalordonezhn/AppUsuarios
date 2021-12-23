@@ -1,0 +1,18 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #ccd0d4;
+}
+
+hr {
+    border-color: #f05f44;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+.layout {
+    background: url('../../assets/img/landscape.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
